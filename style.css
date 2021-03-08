@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+html{
+    min-width: 100px;
+    min-height: 100px;
+    background: url(the\ witcher\ kavil2.png), url(the\ witcher\ hell.png);
+    background-size: 31.5%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom center, center center;
+}
+
+.simbolo{
+    display: inline-block;
+    margin-left: 84px;
+    margin-top: 13px;
+}
+
+.projeto{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 48px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.listinha{
+    display: block;
+    float: right;   
+    margin-right: 40px;
+    margin-top: 48px;
+}
+
+.listinha ul{
+    list-style: none;
+}
+
+.listinha ul li{
+    display: inline-block;
+    padding: 4px 20px;
+}
+
+.listinha ul li a{
+    font-weight: 700;
+}
+
+.logo{
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.loguinho{
+    height: 22%;
+    width: 22%;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.assista{
+    height: 38px;
+    width: 22%;
+    padding: 10px;
+    background-image: linear-gradient(180deg, #ee4526, #a72e18);
+    border: solid 1px;
+    border-color: #5c3434;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.creditos{
+    display: inline-block;
+    width: 400px;
+    height: 18px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.finais{
+    font-size: 8px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 10px;
+}
